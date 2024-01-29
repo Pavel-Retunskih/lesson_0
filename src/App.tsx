@@ -1,24 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Img from './componets/Image/Image';
+import Title from './componets/Title/Title';
+import Subtitle from './componets/Subtitle/Subtitle';
+import Button from './componets/Button/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Img src="Rectangle.png" />,
+      <Title text ='Headline'/>
+      <Subtitle text = 'Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen' />
+      <Button text = 'See more'/>
+      <Button text = 'Save'/>
     </div>
   );
 }
