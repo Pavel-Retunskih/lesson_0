@@ -10,7 +10,7 @@ import styled from 'styled-components';
 function App() {
   return (
       <Wrapp>
-        <Container>
+        <CardContainer>
           <Img src="Rectangle.png" />
           <Title text='Headline' />
           <Subtitle text='Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare   in venen' />
@@ -18,7 +18,7 @@ function App() {
             <Button>See more</Button>
             <SaveBtn>Save</SaveBtn>
           </BtnContainer>  
-        </Container>
+        </CardContainer>
       </Wrapp>
   );
 }
@@ -37,7 +37,7 @@ const Wrapp = styled.div`
   justify-content: center;
   align-items: center;
 `
-const Container = styled.div`
+const CardContainer = styled.div`
   width: 300px;
   height: 350px;
   border-radius: 15px;
