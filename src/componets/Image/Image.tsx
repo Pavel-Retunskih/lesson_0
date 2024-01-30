@@ -4,7 +4,7 @@ type PropsType = {
 
 function Img(props :PropsType){
     return(
-        <div>
+        <div className="img">
             <img src={props.src} alt="main image" />
         </div>
     )
